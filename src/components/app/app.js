@@ -14,7 +14,7 @@ const App = () => {
     const getPerPage = (perPage) => {
         setPerPage(perPage);
     }
-//В totalCount записываем длинну приходящего массива с данными, которые будем отображать
+//В totalCount записываем длину приходящего массива с данными, которые будем отображать
     return(
         <Pagination totalCount={100} getPage={getPage} getPerPage={getPerPage}/>
     )
